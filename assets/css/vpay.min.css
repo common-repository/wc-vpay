@@ -1,0 +1,240 @@
+.wc-vpay-form {
+  color: #222 !important;
+  border-radius: 5px !important;
+  border: 1px solid #f8f8f8 !important;
+  margin-bottom: 50px !important;
+  max-width: 600px !important;
+  margin: 0 auto !important;
+}
+.wc-vpay-form .wc-vpay-form-header {
+  background: #fafafa !important;
+  padding: 35px !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
+}
+.wc-vpay-form .wc-vpay-form-header .left {
+  -webkit-box-flex: 0 !important;
+  -ms-flex: 0 0 40% !important;
+  flex: 0 0 40% !important;
+  max-width: 40% !important;
+  position: relative !important;
+  width: 100% !important;
+  min-height: 1px !important;
+}
+.wc-vpay-form .wc-vpay-form-header .right {
+  -webkit-box-flex: 0 !important;
+  -ms-flex: 0 0 60% !important;
+  flex: 0 0 60% !important;
+  max-width: 60% !important;
+  position: relative !important;
+  width: 100% !important;
+  min-height: 1px !important;
+}
+.wc-vpay-form .wc-vpay-form-header .right {
+  text-align: right !important;
+}
+.wc-vpay-form .wc-vpay-form-header .right p {
+  margin-bottom: 0 !important;
+}
+.wc-vpay-form .wc-vpay-form-header .right p.email {
+  margin-bottom: 3px !important;
+  font-size: small !important;
+}
+.wc-vpay-form .wc-vpay-form-header .wc-vpay-form-logo {
+  height: 28px !important;
+  margin-top: 5px !important;
+}
+.wc-vpay-form .wc-vpay-form-body {
+  background: #fff !important;
+  padding: 35px !important;
+}
+.wc-vpay-form .wc-vpay-form-body p.amount {
+  text-align: center !important;
+  font-size: large !important;
+}
+.wc-vpay-form .wc-vpay-form-body #vpay-payment-button {
+  min-width: 100% !important;
+  border-radius: 3px !important;
+  background-color: #ff1c26 !important;
+  color: #fff !important;
+}
+.wc-vpay-form .wc-vpay-form-body .acct-details-section {
+  border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+  text-align: center !important;
+  padding: 30px !important;
+}
+.wc-vpay-form .wc-vpay-form-body .acct-details-section p.acct-details-text {
+  margin-top: 10px !important;
+  font-size: small !important;
+  margin-bottom: 5px !important;
+}
+.wc-vpay-form .wc-vpay-form-body .acct-details-section p.acct-number {
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
+  font-weight: bolder !important;
+  font-size: larger !important;
+}
+.wc-vpay-form .wc-vpay-form-body .acct-details-section p.acct-number span {
+  background: #fff6f7 !important;
+  padding: 5px 25px !important;
+  border-radius: 50px !important;
+  color: #3f2e4a !important;
+}
+.wc-vpay-form .wc-vpay-form-body .acct-details-section p.acct-name {
+  font-weight: bolder !important;
+  margin-bottom: 3px !important;
+  color: #3f2e4a !important;
+}
+.wc-vpay-form .wc-vpay-form-body .acct-details-section p.acct-bank {
+  font-size: small !important;
+  margin-bottom: 0 !important;
+  color: #3f2e4a !important;
+}
+.wc-vpay-form .wc-vpay-form-body .acct-details-section div.horizontal-line {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  margin-left: 30% !important;
+  margin-right: 30% !important;
+}
+.wc-vpay-form .wc-vpay-form-body .acct-details-section .barcode-section div.barcode-img {
+  display: inline-flex !important;
+  justify-content: center !important;
+  margin-bottom: 15px !important;
+}
+.wc-vpay-form .wc-vpay-form-body .acct-details-section .barcode-section p.scan-text {
+  font-size: small !important;
+  color: #3f2e4a !important;
+}
+.vpay-primary {
+  color: #ff1c26 !important;
+}
+@media screen and (max-width: 480px) {
+  .wc-vpay-form .wc-vpay-form-header {
+    padding: 25px !important;
+  }
+  .wc-vpay-form .wc-vpay-form-body {
+    padding: 25px !important;
+  }
+}
+
+/* The Modal (background) */
+.vpay-process-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1025; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.vpay-process-modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 10px;
+}
+
+/* The Close Button */
+.vpay-process-close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.vpay-process-close:hover,
+.vpay-process-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.vpay-process-modal-content-loading-circle {
+  margin-bottom: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-left-color: #5cb85c;
+  animation: loader-spin 1.2s infinite linear;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 50%;
+  width: 7em;
+  height: 7em;
+}
+
+.vpay-process-modal-content-completed-loading {
+  -webkit-animation: none;
+  animation: none;
+  border-color: #5cb85c;
+  transition: border 500ms ease-out;
+  background: #5cb85c;
+}
+
+.vpay-process-modal-content-checkmark {
+  display: none;
+}
+.vpay-process-modal-content-checkmark:after {
+  animation-duration: 800ms;
+  animation-timing-function: ease;
+  animation-name: checkmark;
+  transform: scaleX(-1) rotate(135deg);
+}
+.vpay-process-modal-content-checkmark:after {
+  opacity: 1;
+  height: 3.5em;
+  width: 1.75em;
+  transform-origin: left top;
+  border-right: 3px solid #fff;
+  border-top: 3px solid #fff;
+  content: "";
+  left: 1.75em;
+  top: 3.5em;
+  position: absolute;
+}
+
+@keyframes loader-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes checkmark {
+  0% {
+    height: 0;
+    width: 0;
+    opacity: 1;
+  }
+  20% {
+    height: 0;
+    width: 1.75em;
+    opacity: 1;
+  }
+  40% {
+    height: 3.5em;
+    width: 1.75em;
+    opacity: 1;
+  }
+  100% {
+    height: 3.5em;
+    width: 1.75em;
+    opacity: 1;
+  }
+}
+
+.vpay-process-modal-loader {
+  text-align: center;
+}

@@ -1,0 +1,142 @@
+/* General */
+.wc-vpay-form {
+  color: #222222 !important;
+  border-radius: 5px !important;
+  border: 1px solid #f8f8f8 !important;
+  margin-bottom: 50px !important;
+  max-width: 600px !important;
+  margin: 0 auto !important;
+}
+
+/* Header Styles */
+.wc-vpay-form .wc-vpay-form-header {
+  background: #fafafa !important;
+  padding: 35px !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
+}
+.wc-vpay-form .wc-vpay-form-header .left {
+  -webkit-box-flex: 0 !important;
+  -ms-flex: 0 0 40% !important;
+  flex: 0 0 40% !important;
+  max-width: 40% !important;
+
+  position: relative !important;
+  width: 100% !important;
+  min-height: 1px !important;
+}
+.wc-vpay-form .wc-vpay-form-header .right {
+  -webkit-box-flex: 0 !important;
+  -ms-flex: 0 0 60% !important;
+  flex: 0 0 60% !important;
+  max-width: 60% !important;
+
+  position: relative !important;
+  width: 100% !important;
+  min-height: 1px !important;
+}
+.wc-vpay-form .wc-vpay-form-header .right {
+  text-align: right !important;
+}
+
+.wc-vpay-form .wc-vpay-form-header .right p {
+  margin-bottom: 0 !important ;
+}
+.wc-vpay-form .wc-vpay-form-header .right p.email {
+  margin-bottom: 3px !important;
+  font-size: small !important;
+}
+.wc-vpay-form .wc-vpay-form-header .wc-vpay-form-logo {
+  height: 28px !important;
+  margin-top: 5px !important;
+}
+
+/* Body Styles */
+.wc-vpay-form .wc-vpay-form-body {
+  background: #ffffff !important;
+  padding: 35px !important;
+}
+.wc-vpay-form .wc-vpay-form-body p.amount {
+  text-align: center !important;
+  font-size: large !important;
+}
+.wc-vpay-form .wc-vpay-form-body #vpay-payment-button {
+  min-width: 100% !important;
+  border-radius: 3px !important;
+  background-color: #ff1c26 !important ;
+  color: #ffffff !important;
+}
+
+/* Acct Details Section */
+.wc-vpay-form .wc-vpay-form-body .acct-details-section {
+  border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+  text-align: center !important;
+  padding: 30px !important;
+}
+.wc-vpay-form .wc-vpay-form-body .acct-details-section p.acct-details-text {
+  margin-top: 10px !important;
+  font-size: small !important;
+  margin-bottom: 5px !important;
+}
+.wc-vpay-form .wc-vpay-form-body .acct-details-section p.acct-number {
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
+  font-weight: bolder !important;
+  font-size: larger !important;
+}
+.wc-vpay-form .wc-vpay-form-body .acct-details-section p.acct-number span {
+  background: rgb(255, 246, 247) !important;
+  padding: 5px 25px !important;
+  border-radius: 50px !important;
+  color: #3f2e4a !important;
+}
+.wc-vpay-form .wc-vpay-form-body .acct-details-section p.acct-name {
+  font-weight: bolder !important;
+  /* 	font-size: large; */
+  margin-bottom: 3px !important;
+  color: #3f2e4a !important;
+}
+.wc-vpay-form .wc-vpay-form-body .acct-details-section p.acct-bank {
+  font-size: small !important;
+  margin-bottom: 0 !important;
+  color: #3f2e4a !important;
+}
+
+.wc-vpay-form .wc-vpay-form-body .acct-details-section div.horizontal-line {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  margin-left: 30% !important;
+  margin-right: 30% !important;
+}
+
+/* Barcode Section */
+.wc-vpay-form .wc-vpay-form-body .acct-details-section .barcode-section div.barcode-img {
+  display: inline-flex !important;
+  justify-content: center !important;
+  margin-bottom: 15px !important;
+}
+.wc-vpay-form .wc-vpay-form-body .acct-details-section .barcode-section p.scan-text {
+  font-size: small !important;
+  color: #3f2e4a !important;
+}
+
+/* Colors */
+.vpay-primary {
+  color: #ff1c26 !important;
+}
+
+/* Mobile Screens */
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 480px) {
+  .wc-vpay-form .wc-vpay-form-header {
+    padding: 25px !important;
+  }
+
+  .wc-vpay-form .wc-vpay-form-body {
+    padding: 25px !important;
+  }
+}
